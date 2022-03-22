@@ -5,8 +5,10 @@ import GlobalStyles from "./GlobalStyles";
 function App() {
   return (
     <div>
-      <Header />
-      <Routes />
+      <GlobalStyles />
+        <Header />
+        <Routes />
+
     </div>
   );
 }
