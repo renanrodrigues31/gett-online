@@ -26,7 +26,7 @@ export default function routes() {
             <Routes>
             
 
-            <Route path='/' element={<Home/>} />
+            <Route exact path='/' element={<Home/>} />
                 
             <Route path="/about" element={<AboutUs/>} />
 
